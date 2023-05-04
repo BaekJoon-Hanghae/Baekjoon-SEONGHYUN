@@ -1,4 +1,4 @@
-package 단계별.조건문.Q10950;
+package 반복문.Q10950;
 
 import java.io.BufferedReader;
 import java.io.IOException;
