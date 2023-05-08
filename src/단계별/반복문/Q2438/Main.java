@@ -1,4 +1,4 @@
-package 반복문.Q2439;
+package 단계별.반복문.Q2438;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,9 +10,6 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         int cnt = Integer.parseInt(br.readLine());
         for (int i = 1; i <= cnt; i++) {
-            for (int j = 0; j < cnt - i; j++) {
-                sb.append(" ");
-            }
             for (int j = 0; j < i; j++) {
                 sb.append("*");
             }
