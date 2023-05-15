@@ -12,22 +12,21 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int index = Integer.parseInt(st.nextToken());
-        int[] arr = new int[index];
+        int N = Integer.parseInt(st.nextToken());
+        int[] result = new int[N];
         int count = Integer.parseInt(st.nextToken());
 
         for (int i = 0; i < count; i++) {
             st = new StringTokenizer(br.readLine());
-            int first = Integer.parseInt(st.nextToken());
-            int second = Integer.parseInt(st.nextToken());
-            int third = Integer.parseInt(st.nextToken());
-
-            for (int j = first - 1; j <= second; j++) {
-                arr[j] = third;
+            int j = Integer.parseInt(st.nextToken());
+            int k = Integer.parseInt(st.nextToken());
+            int l = Integer.parseInt(st.nextToken());
+            for (int q = j - 1; q < k; q++) {
+                result[q] = l;
             }
         }
-        for (int k = 0; k < arr.length; k++) {
-            sb.append(arr[k] + " ");
+        for (int k = 0; k < result.length; k++) {
+            sb.append(result[k] + " ");
         }
         br.close();
         System.out.println(sb);
