@@ -12,18 +12,18 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int N = Integer.parseInt(st.nextToken());
-        int[] result = new int[N + 1];
+        int N = Integer.parseInt(st.nextToken()) ;
+        int[] result = new int[N];
         int M = Integer.parseInt(st.nextToken());
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 0; i < result.length; i++) {
             result[i] = i + 1;
         }
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            int changeFirst = Integer.parseInt(st.nextToken());
-            int changeSecond = Integer.parseInt(st.nextToken());
-            int temp = Integer.parseInt(st.nextToken());
+            int changeFirst = Integer.parseInt(st.nextToken()) - 1;
+            int changeSecond = Integer.parseInt(st.nextToken()) - 1;
+            int temp = result[changeFirst];
             result[changeFirst] = result[changeSecond];
             result[changeSecond] = temp;
         }
