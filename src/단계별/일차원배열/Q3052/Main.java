@@ -10,7 +10,7 @@ public class Main {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
-        HashSet<Integer> hashSet = new HashSet<Integer>();
+        HashSet<Integer> hashSet = new HashSet<>();
 
         for (int i = 0; i < 10; i++) {
             hashSet.add(Integer.parseInt(br.readLine()) % 42);
