@@ -22,7 +22,6 @@ public class Main {
                 A[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-
         for(int i =0 ; i < N; i++) {
             st = new StringTokenizer(br.readLine());
             for(int j = 0; j < M; j++) {
