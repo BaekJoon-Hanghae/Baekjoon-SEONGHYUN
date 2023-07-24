@@ -20,6 +20,5 @@ public class Main {
         }
         sb.append(star[N]);
         System.out.println(sb);
-
     }
 }
