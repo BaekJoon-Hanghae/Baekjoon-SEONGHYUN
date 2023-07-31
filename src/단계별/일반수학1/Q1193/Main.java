@@ -23,5 +23,4 @@ public class Main {
             System.out.println((i + (((val - i) - X) + 1)) + "/" + (i - (val - X)));
         }
     }
-
 }
