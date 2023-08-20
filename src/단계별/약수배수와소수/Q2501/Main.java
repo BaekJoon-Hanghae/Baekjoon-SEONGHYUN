@@ -29,5 +29,4 @@ public class Main {
         sb.append(result);
         System.out.println(sb);
     }
-
 }
