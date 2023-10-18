@@ -18,6 +18,7 @@ public class Main {
         int w = Integer.parseInt(st.nextToken());
         int h = Integer.parseInt(st.nextToken());
         int min = Integer.MAX_VALUE;
+
         min = Math.min(min, Math.min(x, w-x));
         min = Math.min(min, Math.min (y, h-y));
 
