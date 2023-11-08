@@ -11,10 +11,10 @@ public class Main {
 
         long n = Integer.parseInt(br.readLine());
 
-        sb.append(n*n).append("\n");
+        sb.append(n * n).append("\n");
         sb.append(2);
 
         System.out.print(sb);
         br.close();
     }
-
+}
