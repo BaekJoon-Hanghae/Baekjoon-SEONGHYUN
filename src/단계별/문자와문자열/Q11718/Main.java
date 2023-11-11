@@ -7,10 +7,15 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String s;
-        while ((s = br.readLine()) != null) {
-            System.out.println(s);
+        StringBuilder sb = new StringBuilder();
+        String w;
+        while (true) {
+            w = br.readLine();
+            if (w == null || w.isEmpty()) {
+                break;
+            }
+            sb.append(w).append("\n");;
         }
-
+        System.out.println(sb);
     }
 }
