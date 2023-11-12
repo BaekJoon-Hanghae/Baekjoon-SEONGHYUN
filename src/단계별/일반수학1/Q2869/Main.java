@@ -21,5 +21,6 @@ public class Main {
 
         sb.append(day);
         System.out.println(sb);
+        br.close();
     }
 }
