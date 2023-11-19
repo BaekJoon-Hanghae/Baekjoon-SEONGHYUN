@@ -1,4 +1,4 @@
-package 단계별.수정렬하기.Q2750;
+package 단계별.정렬.Q2750;
 
 import java.io.BufferedReader;
 import java.io.IOException;
