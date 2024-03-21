@@ -22,12 +22,10 @@ public class Main {
                     sum += i;
                 }
             }
-
             if (sum != n) {
                 sb.append(n + " is NOT perfect. \n");
                 continue;
             }
-
             sb.append(n + " = 1");
 
             for (int i = 1; i < n; i++) {
