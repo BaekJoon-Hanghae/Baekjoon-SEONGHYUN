@@ -22,6 +22,7 @@ public class Main {
                     sum += i;
                 }
             }
+
             if (sum != n) {
                 sb.append(n + " is NOT perfect. \n");
                 continue;
