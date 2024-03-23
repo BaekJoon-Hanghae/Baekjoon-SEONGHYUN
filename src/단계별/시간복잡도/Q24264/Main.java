@@ -13,7 +13,6 @@ public class Main {
 
         sb.append(n * n).append("\n");
         sb.append(2);
-
         System.out.print(sb);
         br.close();
     }
