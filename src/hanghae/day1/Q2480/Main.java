@@ -17,7 +17,8 @@ public class Main {
         if (num == num2 && num == num3) {
             System.out.println(10000 + (num * 1000));
         } else if (num == num2 || num == num3 || num2 == num3) {
-            System.out.println(1000 + (Math.max(num, Math.max(num2, num3) * 100)));
+            int match = (num == num2) ? num : (num == num3) ? num : num2;
+            System.out.println(1000 + (match * 100));
         } else {
             System.out.println(Math.max(num, Math.max(num2, num3)) * 100);
         }
