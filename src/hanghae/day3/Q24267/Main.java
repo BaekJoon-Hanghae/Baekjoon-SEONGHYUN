@@ -1,4 +1,4 @@
-package hanghae.day3.Q24265;
+package hanghae.day3.Q24267;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,8 +11,8 @@ public class Main {
 
         long n = Long.parseLong(br.readLine());
 
-        sb.append((n*(n-1))/2).append("\n");
-        sb.append(2);
+        sb.append(n*(n-1)*(n-2)/6).append("\n");
+        sb.append(3).append("\n");
 
         System.out.print(sb);
         br.close();
