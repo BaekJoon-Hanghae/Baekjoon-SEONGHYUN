@@ -18,3 +18,11 @@ public class Main {
         br.close();
     }
 }
+//        int n = 7;
+//        int sum = 0;
+//        for (int i = 1; i <= n-1; i++) { 6
+//            for (int j = i = 1; i <= n; j++) { 7
+//                sum++;
+//            }
+//        }
+//등차수열/ 가우스 합 공식
