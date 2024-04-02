@@ -3,7 +3,7 @@ package hanghae.day5.Q1652;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+//틀림 하나의 행 또는 열에서 누울자리가 하나가 아님 수정 필요
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
